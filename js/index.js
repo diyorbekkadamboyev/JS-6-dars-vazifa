@@ -11,14 +11,14 @@ elBtn.addEventListener ('click' ,function(evt){
 
 
     let s;
-    if(inputSelect==0){
-        s = parseInt(inputValue)*10050;
+    if(inputSelect == 0){
+        s = parseInt(inputValue)*11095.41;
     }else if(inputSelect==1){
-        s  = parseInt(inputValue)*20900;
+        s  = parseInt(inputValue)*11510.94;
     }else if(inputSelect==2){
-        s  = parseInt(inputValue)*2992;
+        s  = parseInt(inputValue)*190.61;
     }else if(inputSelect==3){
-        s  = parseInt(inputValue)*3333;
+        s  = parseInt(inputValue)*36261.77;
     }else{
         s = 1000;
     }
